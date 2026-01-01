@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud-Based Car Dealership System</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc; /* Butter yellow */
+    color: #8b0000; /* Dark red */
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+h1, h2, h3 { color: #8b0000; }
+.tab {
+    overflow: hidden;
+    border-bottom: 3px solid #8b0000;
+    margin-bottom: 20px;
+}
+.tab button {
+    background-color: #fffacd; /* lighter butter yellow */
+    float: left;
+    border: 1px solid #8b0000;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-right: 2px;
+}
+.tab button:hover { background-color: #f5e68a; }
+.tab button.active { background-color: #f0e68c; border-bottom: 3px solid #8b0000; }
+.tabcontent {
+    display: none;
+    padding: 15px;
+    border-left: 4px solid #8b0000;
+    background-color: #fffacd;
+    margin-bottom: 20px;
+}
+.collapsible {
+    background-color: #8b0000;
+    color: #fff8dc;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.activeCollapsible, .collapsible:hover { background-color: #b22222; }
+.content {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #fffacd;
+    margin-bottom: 10px;
+    border-left: 4px solid #8b0000;
+}
+table { border-collapse: collapse; width: 100%; margin-bottom: 15px; }
+th, td { border: 1px solid #8b0000; padding: 8px; text-align: left; }
+th { background-color: #fff8dc; }
+a { color: #8b0000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1>Cloud-Based Event-Driven Car Dealership System</h1>
+<p><b>Analytical and growing project: we design a cloud system for car dealerships step by step, covering all cloud topics.</b></p>
+
+<h2>Team Members</h2>
+<table>
+<tr><th>Name</th><th>Student ID</th><th>Email</th></tr>
+<tr><td>Adi Alqarra</td><td>120244732</td><td>oalqarra1@smail.ucas.edu.ps</td></tr>
+<tr><td>Omar Shaaban</td><td>–</td><td>oh6@smail.ucas.edu.ps</td></tr>
+<tr><td>Sarah Mandil</td><td>220XXXXX</td><td>smandeil@smail.ucas.edu.ps</td></tr>
+</table>
+
+<h2>Supervisor</h2>
+<p>Dr. Israa Farwanah – ifarwanah@ucas.edu.ps</p>
+
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Objectives')">Objectives</button>
+  <button class="tablinks" onclick="openTab(event, 'Scope')">Scope</button>
+  <button class="tablinks" onclick="openTab(event, 'Repo')">Repository Structure</button>
+  <button class="tablinks" onclick="openTab(event, 'Deliverables')">Deliverables</button>
+</div>
+
+<div id="Objectives" class="tabcontent" style="display:block;">
+  <button type="button" class="collapsible">Main Goals</button>
+  <div class="content">
+    <ul>
+      <li>Design a cloud-based system for dealerships</li>
+      <li>Use event-driven model for all operations</li>
+      <li>Analyze system performance under many tasks</li>
+      <li>Check scalability across multiple branches</li>
+      <li>Compare cloud vs traditional system costs</li>
+    </ul>
+  </div>
+</div>
+
+<div id="Scope" class="tabcontent">
+  <button type="button" class="collapsible">Included</button>
+  <div class="content">
+    <ul>
+      <li>System design and architecture diagrams</li>
+      <li>Event-driven workflow analysis</li>
+      <li>Cloud deployment model analysis</li>
+      <li>Performance, scalability, and cost study</li>
+      <li>Case study example</li>
+    </ul>
+  </div>
+  <button type="button" class="collapsible">Not Included</button>
+  <div class="content">
+    <ul>
+      <li>No real software coding</li>
+      <li>No front-end or back-end development</li>
+      <li>No real cloud deployment</li>
+    </ul>
+  </div>
+</div>
+
+<div id="Repo" class="tabcontent">
+  <button type="button" class="collapsible">Repository Folders</button>
+  <div class="content">
+    <ul>
+      <li>abstract/ – Project summary</li>
+      <li>problem-statement/ – Define main problem</li>
+      <li>literature-review/ – Study similar academic work</li>
+      <li>system-design/ – Architecture and event design</li>
+      <li>analysis/ – Performance, scalability, cost study</li>
+      <li>case-study/ – Real dealership example</li>
+      <li>future-work/ – Possible improvements</li>
+      <li>references/ – Academic & technical references</li>
+    </ul>
+  </div>
+</div>
+
+<div id="Deliverables" class="tabcontent">
+  <ul>
+    <li>Well-documented GitHub repository</li>
+    <li>Clear explanation in all sections</li>
+    <li>Logical analysis with references</li>
+    <li>Structured and easy to read for students and instructor</li>
+  </ul>
+</div>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("activeCollapsible");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") { content.style.display = "none"; } 
+    else { content.style.display = "block"; }
+  });
+}
+</script>
+
+</body>
+</html>
