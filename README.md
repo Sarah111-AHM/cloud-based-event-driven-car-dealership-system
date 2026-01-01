@@ -6,14 +6,18 @@ Analytical and evolving cloud-based event-driven management system for car deale
 Design and Analysis of a Cloud-Based Event-Driven Management System for Car Dealerships
 
 ---
+# Cloud-Based Event-Driven Car Dealership System
 
-## Team Members / أعضاء الفريق
+**Interactive Version:**  
+[![Open Interactive Page](https://img.shields.io/badge/Open-Interactive%20HTML-ffcc33?style=for-the-badge&logo=github)](https://sarah111-ahm.github.io/cloud-based-event-driven-car-dealership-system/)
+
+## Team Members 
 
 - **عدي سعد علي القرا / Adi Alqarra**  – oalqarra1@smail.ucas.edu.ps  
 - **عمر شعبان يوسف حرب / Omar Shaaban** – oh6@smail.ucas.edu.ps  
 - **سارة مندييل / Sarah Mandil**  – smandeil@smail.ucas.edu.ps  
 
-## Supervisor / المشرفة
+## Supervisor
 
 - **د.إسراء فروانة / Israa Farwanah** – ifarwanah@ucas.edu.ps
 
