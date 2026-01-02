@@ -8,3 +8,6 @@
 | Inventory Updated       | New stock arrives                          | Inventory, Dashboard           |
 | Service Scheduled       | Customer books a service appointment      | Service, Customer, Notification|
 | Invoice Generated       | Sale confirmed                             | Sales, Finance                 |
+
+
+![Event Flow Diagram](https://drive.google.com/uc?export=view&id=FILE_ID)
