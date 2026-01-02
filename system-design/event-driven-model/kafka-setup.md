@@ -16,3 +16,7 @@
 ## 4. Reliability
 - Replication factor = 3
 - Partitioning for scalability
+
+![Kafka Event-Driven Architecture](images/kafka_setup_diagram.png)
+
+![Kafka Detailed Diagram](https://drive.google.com/uc?export=view&id=1wSjkd8Y_0OpFNlQULODC1dFxRWi-l957)
