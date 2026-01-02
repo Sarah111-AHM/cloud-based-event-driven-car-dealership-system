@@ -11,7 +11,9 @@ Design and implementation of a cloud-based event-driven architecture for real-ti
 The paper addresses the challenge of processing massive, real-time data streams from Internet of Things (IoT) devices and Wireless Sensor Networks (WSNs) in a cost-effective, reliable, and scalable manner. Existing cloud-based solutions often suffer from issues like high latency, bandwidth saturation, lack of real-time processing capabilities, and unexpected costs due to inefficient resource scaling.
 
 4.  Proposed Solution:
-The authors propose REDA (Real-time processing Event-Driven cloud-based Architecture), a cost-effective architecture built on open-source technologies. Its core components are:
+The authors propose REDA (Real-time processing Event-Driven cloud-based Architecture), a cost-effective architecture built on open-source technologies.
+![REDA Architecture Diagram](https://drive.google.com/uc?export=view&id=1jCczBTbpfR8pQ3jMauLz5YxoZo25vC-V)
+Its core components are:
 
 · Event Producer: Uses the MQTT protocol for lightweight communication from sensor nodes (e.g., soil moisture sensors).
 · Event Channel: Employs Apache Kafka as a high-throughput, low-latency distributed message broker for real-time stream processing.
