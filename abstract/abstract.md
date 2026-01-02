@@ -15,4 +15,5 @@ Main points of this study:
 
 This project uses a research-style method like papers in **Google Scholar**, with clear design, analysis, and documentation.
 
+  
 **Keywords:** Cloud Computing, Event-Driven Design, Car Dealership, System Analysis, Performance, Scalability.
