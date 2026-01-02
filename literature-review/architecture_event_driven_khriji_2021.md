@@ -31,6 +31,9 @@ The solution is validated through load testing, demonstrating the ability to han
 · Edge Processing: The architecture primarily processes data in the cloud. The authors suggest integrating fog computing at the network edge for future work to pre-process data and reduce cloud load.
 
 6.  How Our Proposed Project Differs/Improves:
+
+![Comparison REDA vs DMS](https://drive.google.com/uc?export=view&id=1YtnECNTpsHpWsdIR6i7KXXb771GoxAMQ)
+
 Our proposedAutosales DMS differs and builds upon this work in several key ways:
 
 · Core Domain & Data Model: While REDA handles homogeneous sensor telemetry, a DMS must manage complex, structured business data (sales transactions, customer records, inventory, service histories, financial data) requiring strong relational integrity and complex queries.
@@ -38,6 +41,9 @@ Our proposedAutosales DMS differs and builds upon this work in several key ways:
 · Processing Logic: A DMS requires complex business logic, workflow automation (e.g., lead-to-sale funnel, service scheduling), and reporting/analytics, going beyond the stream filtering and alerting demonstrated in REDA.
 · System Integration: A modern DMS must provide APIs to integrate with external systems (e.g., manufacturer portals, financial institutions, CRM tools), a requirement not explored in the sensor-network context of REDA.
 · Architectural Inspiration: We can adopt the core architectural paradigm (event-driven microservices using Kafka) proposed by REDA. This is highly beneficial for building a scalable, decoupled, and real-time DMS where events like "Vehicle Sold," "Service Appointment Booked," or "Inventory Updated" can trigger downstream processes seamlessly. However, we would adapt the technology stack (e.g., evaluating SQL vs. NoSQL for core transactions, different serialization protocols) to suit enterprise application needs.
+
+![DMS Data Flow](https://drive.google.com/uc?export=view&id=1uHqNGmHaq5qTEcUPzbL7MtGb3ZY8v2pm)
+
 
 7.  Classification:
 Partially Related
