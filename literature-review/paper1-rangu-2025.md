@@ -29,7 +29,6 @@ The author proposes a holistic digital transformation framework centered on the 
 · Underdeveloped Security Architecture: Although data security and regulatory compliance (GDPR, CCPA) are highlighted as "crucial," the discussion remains at the policy level.
 
 ![Research Gaps Visualization](https://drive.google.com/uc?export=view&id=1U8j42Sd2eLqXEvK-IvuG5Ro2cp67uxec)
-*الشكل 3: التمثيل المجرد للفجوات الرئيسية الأربعة في البحث*
 
 ### 6. How Our Proposed Project Differs/Improves
 Our proposed Autosales DMS project differs and builds upon this work in the following key ways:
@@ -40,7 +39,7 @@ Our proposed Autosales DMS project differs and builds upon this work in the foll
 · Balanced Innovation and Practicality
 
 ![Concept to Implementation Journey](https://drive.google.com/uc?export=view&id=1boz9WoRuabi29WdOpdXcPoGJBdYiXb1t)
-*الشكل 4: رحلة تحويل المفهوم النظري إلى تطبيق عملي*
+
 
 ### 7. Classification
 Closely Related
@@ -48,7 +47,7 @@ Closely Related
 Justification: This paper is directly and highly relevant to the core objective of our Autosales DMS project. It establishes the critical industry problem and validates the technological thesis of our project.
 
 ![Integrated DMS Dashboard](https://drive.google.com/uc?export=view&id=1bDjbYKjvglxFXl6yURDT8zQuYv-IDLHV)
-*الشكل 5: تصور لوحة تحكم نظام إدارة الوكالة المتكامل المقترح*
+
 
 ### Comparative Summary and Project Positioning
 
